@@ -1,5 +1,5 @@
 //primer ejercicio
-const character = 1  //ingresa aqui tu caracter
+const character = 1 //ingresa aqui tu caracter
 // console.log('Ingresa tu caracter arriba en la variable','tu variable es de tipo:',typeof(character))
 // const typeofcharacter = typeof(characterfive)
 if(typeof(character) == 'number'){
