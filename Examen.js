@@ -26,10 +26,12 @@ const text = 'Hola mundo que tal'
 const initial = text.substring(5,10)
 var verify = text.split('mundo')
 console.log(initial,...verify)
-
-
-
-
+//segunda completa
+const text1 = 'Hola mundo que tal'
+const split1 = text1.split(' ')
+console.log(split1)
+const initial1 = 'mundo'
+console.log(initial1,text1.split(initial1)[1])
 
 //tercer ejecicio
 const separar = 'Hola mundo prueba mundo'
@@ -56,18 +58,34 @@ for (i=1;i<50;i=i+2){
     console.log(i)
 }
 
-
-
-
-
+const prueba = 'Hola'
+const prueba1 = 'hola'
+const verifyUpper = (prueba1.substring(0,1).toUpperCase())
+const testMayus = prueba.substring(0,1)
+console.log(testMayus)
+console.log(verifyUpper)
+if(verifyUpper === testMayus){
+    'tu variable es mayucula'
+}
+else{
+    'no es mayuscula'
+}
 
 //quinto ejercicio
-const characterfive = []
+const characterfive = 'Hola'
+const checkUpper = (prueba1.substring(0,1).toUpperCase())
+const verifyLetter = prueba.substring(0,1)
 if(typeof(characterfive) == 'number'){
     console.log('Es numero')
 }
 else if (typeof(characterfive) == 'string'){
     console.log('Es texto')
+    if(verifyLetter === 'H'){
+        console.log('Y tu variable es mayúscula')
+    }
+    else{
+        console.log('Y tu variable es minúscula')
+    }
 }
 else(console.log('No es ninguno de los 2'))
 // console.log(typeofcharacter)
@@ -91,5 +109,13 @@ else(console.log('No es ninguno de los 2'))
 //sexto ejercicio
 
 //septimo ejercicio
+const height = 5 //indica tu altura
+for( i=1; i<=height; i++){
+    let resultado = ''
 
+    for (j = 1; j<=i; j++){
+        resultado += '*','\n'
+    }
+    console.log(resultado)
+}
 //octavo ejercicio
